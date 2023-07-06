@@ -1,0 +1,62 @@
+.write {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.writeForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 500px;
+  margin-top: 1rem;
+}
+
+.writeFormGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.writeIcon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.writeInput,
+.writeText {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #f7f7f7;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+.writeText {
+  height: 20rem;
+  resize: none;
+}
+
+.writeSubmit {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #2f80ed;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.writeSubmit:hover {
+  background-color: #2567c3;
+}

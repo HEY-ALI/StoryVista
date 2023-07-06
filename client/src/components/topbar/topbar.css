@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Varela+Round&display=swap');
+
+.top {
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+}
+
+.topLeft {
+  display: flex;
+  align-items: center;
+}
+
+.topIcon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #555;
+  transition: all 0.2s ease-in-out;
+}
+
+.topIcon:hover {
+  color: #333;
+}
+
+.topCenter {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topList {
+  display: flex;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+}
+
+.topListItem:last-child {
+  margin-right: 0;
+}
+
+.topListItem a {
+  text-decoration: none;
+  color: #555;
+  transition: all 0.2s ease-in-out;
+}
+
+.topListItem a:hover {
+  color: #333;
+}
+
+.topRight {
+  display: flex;
+  align-items: center;
+}
+
+.topImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.topImg:hover {
+  transform: scale(1.1);
+}
+
+.topList:last-child {
+  margin-right: 0;
+}
+
+.topSearchIcon {
+  font-size: 24px;
+  margin-left: 10px;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.topSearchIcon:hover {
+  color: #333;
+  transform: scale(1.1);
+}

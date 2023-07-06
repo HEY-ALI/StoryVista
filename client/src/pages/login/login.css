@@ -1,0 +1,97 @@
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F7F7;
+}
+
+.loginTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.loginForm label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.loginInput {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #F2F2F2;
+}
+
+.loginInput:focus {
+  background-color: #E0E0E0;
+}
+
+.loginButton {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: #6e14e4;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginButton:hover {
+  background-color: #555;
+}
+
+.loginButton:disabled {
+  background-color: #BDBDBD;
+  cursor: not-allowed;
+}
+
+.loginRegisterButton {
+  margin-top: 1rem;
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  color: #1d10d8;
+}
+
+.loginRegisterButton:hover {
+  color: #555;
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+  font-size: 1rem;
+}

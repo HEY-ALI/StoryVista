@@ -1,0 +1,43 @@
+.contact-page {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px; 
+  }
+  
+  button {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  
